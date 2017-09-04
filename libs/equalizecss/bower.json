@@ -1,0 +1,23 @@
+{
+  "name": "equalizecss",
+  "version": "1.2.1",
+  "homepage": "https://equalizecss.com/",
+  "authors": [
+    "Vladimir Humeniuk"
+  ],
+  "description": "css grid based on flexboxes",
+  "main": "dist/css/equalize.css",
+  "keywords": [
+    "css",
+    "grid",
+    "flexbox",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

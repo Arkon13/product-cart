@@ -1,0 +1,560 @@
+@import url(../libs/equalizecss/dist/css/equalize.min.css);
+@import url(../libs/swiper/dist/css/swiper.css);
+@font-face {
+  font-family: "TT Prosto Sans";
+  src: url("../fonts/TTProstoSansRegular.otf"); }
+
+@font-face {
+  font-family: "TT Prosto Sans Black";
+  src: url("../fonts/TTProstoSansBlack.otf"); }
+
+@font-face {
+  font-family: "TT Prosto Sans Bold";
+  src: url("../fonts/TTProstoSansBold.otf"); }
+
+@font-face {
+  font-family: "TT Prosto Sans Light";
+  src: url("../fonts/TTProstoSansLight.otf"); }
+
+body {
+  font-family: "TT Prosto Sans";
+  font-size: 14px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+input:focus {
+  outline: none;
+  border: none; }
+
+button {
+  border: none; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+li {
+  list-style-type: none; }
+
+.btn {
+  text-transform: uppercase;
+  font-family: "TT Prosto Sans Bold";
+  color: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 10px 17px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.btn-orange {
+  background-color: #ff8400; }
+
+.btn-blue {
+  background-color: #00c0cc;
+  margin-top: 27px; }
+
+.btn-header {
+  background-color: #f2f2f2;
+  color: #000;
+  margin-left: 18px;
+  padding-left: 33px; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 70px; }
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff; }
+
+header {
+  padding-bottom: 17px;
+  margin-bottom: 35px;
+  -webkit-box-shadow: 0 4px 2px -2px #dddddd;
+          box-shadow: 0 4px 2px -2px #dddddd; }
+
+.working-days {
+  text-align: right;
+  font-family: "TT Prosto Sans Light";
+  font-size: 12px;
+  padding-top: 7px; }
+
+nav {
+  margin-top: 4px; }
+  nav li {
+    display: inline-block;
+    margin-right: 45px; }
+  nav li:last-child {
+    margin-right: 0; }
+  nav a {
+    font-family: "TT Prosto Sans Bold";
+    font-size: 14px;
+    font-weight: 100; }
+  nav img {
+    margin-right: 5px;
+    vertical-align: sub; }
+
+.logo {
+  margin-top: -8px;
+  display: block; }
+
+.search {
+  margin-top: 25px; }
+  .search input {
+    font-family: "TT Prosto Sans";
+    font-size: 14px;
+    color: #000000;
+    width: 94%;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background: #f2f2f2;
+    padding: 10px 18px;
+    line-height: 16px;
+    border-top: 2px solid #cecece;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position-x: 503px;
+    background-position-y: 9px; }
+  .search input:focus {
+    background: none; }
+
+.contacts {
+  text-align: right;
+  margin-top: 4px; }
+  .contacts span {
+    margin-left: 22px; }
+
+.catalog {
+  margin-top: 26px; }
+  .catalog .btn {
+    padding-left: 45px;
+    background-image: url(burger.png);
+    background-repeat: no-repeat;
+    background-position-x: 17px;
+    background-position-y: 12px; }
+
+.header-btn {
+  text-align: right;
+  margin-top: 22px; }
+
+.login {
+  background-image: url(login.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 15px; }
+
+.cart {
+  background-image: url(bascet.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 12px; }
+
+.breadcrubs {
+  font-size: 12px;
+  margin-bottom: 40px; }
+  .breadcrubs li {
+    display: inline-block; }
+  .breadcrubs a {
+    color: #646464; }
+  .breadcrubs .active {
+    font-family: "TT Prosto Sans Bold"; }
+  .breadcrubs img {
+    margin-right: 8px; }
+
+.product-cart-container {
+  padding-top: 18px;
+  padding-left: 31px;
+  padding-right: 32px;
+  padding-bottom: 16px; }
+
+.product-description {
+  color: #964000;
+  background: #fff1e3;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 10px;
+  padding-left: 18px;
+  margin-bottom: 23px; }
+
+table {
+  width: 100%; }
+
+td {
+  width: 50%;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+.table-color {
+  background: #f2f2f2; }
+
+.product-gallery {
+  width: 12%;
+  float: left;
+  position: relative; }
+
+.swiper-container2 {
+  width: 100%;
+  height: 450px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .swiper-container2 .swiper-slide {
+    height: 50px; }
+  .swiper-container2 .swiper-button-prev {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    left: 25px;
+    top: -11px;
+    height: 18%;
+    -webkit-box-shadow: 3px -1px 3px 2px #e2e2e2;
+            box-shadow: 3px -1px 3px 2px #e2e2e2; }
+  .swiper-container2 .swiper-button-next {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    right: 22px;
+    top: 482px;
+    height: 18%;
+    -webkit-box-shadow: 3px 0px 3px 2px #e2e2e2;
+            box-shadow: 3px 0px 3px 2px #e2e2e2; }
+
+.divs {
+  clear: both; }
+
+.product-gallery__item {
+  -webkit-box-shadow: 0px 2px 5px 2px #e2e2e2;
+  box-shadow: 0px 2px 5px 2px #e2e2e2;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.product-cart {
+  position: relative;
+  width: 84%;
+  float: left;
+  margin-right: 25px;
+  -webkit-box-shadow: 0px 2px 5px 2px #e2e2e2;
+  box-shadow: 0px 2px 5px 2px #e2e2e2; }
+
+.product-cart__title {
+  font-family: "TT Prosto Sans Bold";
+  font-size: 24px;
+  line-height: 29px; }
+
+.product-cart__img {
+  text-align: center;
+  position: relative;
+  padding-top: 11px; }
+
+.product-cart__vendor-code {
+  font-size: 12px;
+  color: #646464;
+  display: block;
+  margin-top: 12px; }
+
+.availability, .delivery {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  width: 50%;
+  font-size: 12px;
+  color: #646464; }
+  .availability img, .delivery img {
+    margin-right: 5px; }
+
+.availability {
+  bottom: 19px;
+  right: -162px; }
+
+.delivery {
+  right: -98px; }
+
+.price-title {
+  font-size: 12px;
+  color: #646464;
+  margin-top: 12px; }
+
+.product-cart__price {
+  font-size: 24px;
+  font-family: "TT Prosto Sans Bold";
+  line-height: 26px; }
+
+.free-shipping {
+  font-family: "TT Prosto Sans Bold";
+  font-size: 12px;
+  background: #def8f8;
+  color: #005656; }
+
+.product-counter {
+  float: right;
+  margin-top: -13px;
+  margin-right: -114px;
+  position: relative; }
+  .product-counter input {
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    border: none;
+    border-top: 2px solid #cecece;
+    margin-right: 26px;
+    background: #f2f2f2;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center; }
+    .product-counter input input:focus {
+      border-top: 2px solid #cecece; }
+  .product-counter span {
+    position: absolute; }
+  .product-counter .plus {
+    background-image: url(up.png);
+    width: 25px;
+    height: 20px;
+    background-color: #e4e4e4;
+    top: 1px;
+    background-repeat: no-repeat;
+    left: 56px;
+    background-position: center;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 5px;
+            border-top-right-radius: 5px; }
+  .product-counter .minus {
+    background-image: url(down.png);
+    width: 25px;
+    height: 18px;
+    background-color: #e4e4e4;
+    background-repeat: no-repeat;
+    left: 56px;
+    top: 21px;
+    background-position: center;
+    cursor: pointer;
+    -webkit-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px; }
+
+.free-shipping {
+  background-image: url(car.png);
+  background-repeat: no-repeat;
+  padding: 17px 10px 16px 62px;
+  background-position: 30px; }
+
+.products-slider, .stock-slider {
+  position: relative; }
+
+.stock .products-slider {
+  margin-top: 110px; }
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-family: "TT Prosto Sans Bold";
+  margin-bottom: 55px; }
+
+.products-slider__item-img {
+  height: 160px;
+  font-size: 24px;
+  color: #000;
+  text-align: center; }
+
+.products-slider {
+  margin-top: 98px; }
+
+.products-slider__item {
+  padding: 20px;
+  margin: 3px;
+  -webkit-box-shadow: 0px 2px 5px 2px #e2e2e2;
+  box-shadow: 0px 2px 5px 2px #e2e2e2; }
+
+.products-slider__item h3 {
+  font-size: 16px;
+  color: #000;
+  font-family: "TT Prosto Sans Light";
+  height: 80px; }
+
+.products-slider__item span {
+  display: block;
+  font-size: 16px;
+  font-family: "TT Prosto Sans Bold"; }
+
+.price {
+  margin-top: -8px; }
+
+.counter {
+  position: relative;
+  margin-top: 16px; }
+  .counter input {
+    width: 27%;
+    padding: 10px 5px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    border: none;
+    border-top: 2px solid #cecece;
+    margin-right: 28px;
+    background: #f2f2f2;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center; }
+    .counter input input:focus {
+      border-top: 2px solid #cecece; }
+  .counter span {
+    position: absolute; }
+  .counter .plus {
+    background-image: url(up.png);
+    width: 25px;
+    height: 20px;
+    background-color: #e4e4e4;
+    top: 1px;
+    background-repeat: no-repeat;
+    left: 53px;
+    background-position: center;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 5px;
+            border-top-right-radius: 5px; }
+  .counter .minus {
+    background-image: url(down.png);
+    width: 25px;
+    height: 18px;
+    background-color: #e4e4e4;
+    background-repeat: no-repeat;
+    left: 53px;
+    top: 19px;
+    background-position: center;
+    cursor: pointer;
+    -webkit-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px; }
+
+.swiper-button-next, .swiper-button-prev {
+  top: 42%;
+  background-size: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 5px 2px #e2e2e2;
+  box-shadow: 0px 2px 5px 2px #e2e2e2; }
+
+.swiper-button-next {
+  background-image: url(next.png);
+  right: -12px; }
+
+.swiper-button-prev {
+  background-image: url(prev.png);
+  left: -12px; }
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+  opacity: 1; }
+
+.swiper-pagination-bullet {
+  background: #fff;
+  border: 1px solid; }
+
+.swiper-pagination-bullet-active {
+  background: #ff8400;
+  border: 1px solid #ff8400; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 16px; }
+
+.banners {
+  margin-top: 69px; }
+
+.banners-item {
+  padding-left: 40px;
+  padding-top: 30px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  height: 171px; }
+  .banners-item h3 {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "TT Prosto Sans Black"; }
+  .banners-item p {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 200px;
+    margin-top: 7px;
+    line-height: 23px; }
+
+.banners-item__left {
+  background-color: #00c0cc;
+  background-image: url(left-back.png);
+  background-repeat: no-repeat;
+  background-position: 333px 88px; }
+
+.banners-item__right {
+  position: relative;
+  background-color: #ff8400;
+  background-image: url(right-back.png);
+  background-repeat: no-repeat;
+  background-position: 211px 76px;
+  overflow: hidden; }
+  .banners-item__right p {
+    padding-right: 197px; }
+
+.goods-week {
+  position: absolute;
+  top: -15px;
+  right: 48px; }
+
+footer {
+  background-color: #f2f2f2;
+  color: #646464;
+  padding-top: 38px;
+  padding-bottom: 56px;
+  margin-top: 84px;
+  -webkit-box-shadow: inset 0px 2px 2px #e9e9e9;
+  box-shadow: inset 0px 2px 2px #e9e9e9; }
+
+.copyright {
+  font-size: 12px;
+  margin-top: 18px;
+  line-height: 18px; }
+
+.footer-payment li {
+  display: inline-block; }
+
+.footer-nav {
+  margin-top: 10px; }
+  .footer-nav li {
+    margin-bottom: 13px; }
+  .footer-nav a {
+    color: #646464; }
+
+.footer-contacts {
+  margin-top: 9px; }
+  .footer-contacts img {
+    padding-right: 6px; }
+  .footer-contacts span {
+    padding-right: 29px; }
+
+.footer-social {
+  margin-top: 10px; }
+  .footer-social li {
+    display: inline-block;
+    margin-right: 14px; }
+  .footer-social li:last-child {
+    margin-right: 0; }
+
+.footer-adress {
+  margin-top: 10px; }
+
+.footer-payment {
+  margin-top: 70px; }
+  .footer-payment li {
+    vertical-align: middle;
+    margin-right: 37px; }
+  .footer-payment li:last-child {
+    margin-right: 0; }
+
+.container {
+  width: 1102px; }

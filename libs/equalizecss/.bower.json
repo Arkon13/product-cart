@@ -1,0 +1,32 @@
+{
+  "name": "equalizecss",
+  "homepage": "https://equalizecss.com/",
+  "authors": [
+    "Vladimir Humeniuk"
+  ],
+  "description": "css grid based on flexboxes",
+  "main": "dist/css/equalize.css",
+  "keywords": [
+    "css",
+    "grid",
+    "flexbox",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f12bc80233",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f12bc80233097243fa76c16c5027e5e1c2cb1634"
+  },
+  "_source": "https://github.com/vladimirhumeniuk/equalizecss.git",
+  "_target": "*",
+  "_originalSource": "equalizecss",
+  "_direct": true
+}
